@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gimnasia Dactilar - CREA Musicala</title>
+    <style>
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            background-color: #F4F4F4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        .logo {
+            position: absolute;
+            top: 40px; /* Separación desde la parte superior */
+            right: 10px; /* Separación desde la derecha */
+            width: 120px; /* Ancho ajustado del logo */
+            height: auto; /* Mantiene las proporciones del logo */
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #1A237E;
+            font-weight: 700;
+            font-size: 32px;
+            margin: 20px 0;
+        }
+
+        nav {
+            position: sticky;
+            top: 0;
+            background: #3949AB;
+            color: white;
+            padding: 10px;
+            z-index: 1000;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .image-container {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 50px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        .description {
+            margin: 20px 0;
+            font-size: 18px;
+            line-height: 1.8;
+        }
+
+        h2 {
+            color: #283593;
+            font-size: 24px;
+            margin: 20px 0 10px;
+            font-weight: bold;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #CCC;
+        }
+
+        th {
+            background-color: #3949AB;
+            color: white;
+            font-weight: bold;
+        }
+
+        tr:nth-child(even) {
+            background-color: #F9F9F9;
+        }
+
+        tr:hover {
+            background-color: #DCE775;
+            cursor: pointer;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin-top: 10px;
+        }
+
+        ul li {
+            margin: 8px 0;
+        }
+
+        .highlight {
+            background: #FFEB3B;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+
+        .tip {
+            background: #E3F2FD;
+            padding: 15px;
+            border-left: 5px solid #3949AB;
+            margin: 20px 0;
+            font-size: 16px;
+        }
+
+        .back-to-top {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #3949AB;
+            color: white;
+            text-align: center;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        .back-to-top:hover {
+            background-color: #283593;
+        }
+
+        #progress-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 5px;
+            background: #3949AB;
+            width: 0%;
+            z-index: 999;
+        }
+    </style>
+</head>
+<body>
+    <img class="logo" src="https://static.wixstatic.com/media/85afce_3adb3865c88a492b93a8bf2dc69049c3~mv2.png" alt="Logo Musicala">
+    <div id="progress-bar"></div>
+    <nav>
+        <a href="#ejercicio-basico">Ejercicio Básico</a>
+        <a href="#patrones">Patrones</a>
+        <a href="#niveles">Niveles</a>
+        <a href="#tips">Tips</a>
+    </nav>
+
+    <div class="container">
+        <h1>🖐️ Gimnasia Dactilar - Despierta tus dedos al ritmo de Musicala 🎸</h1>
+
+        <div class="image-container">
+            <img src="https://static.wixstatic.com/media/85afce_f009d3b6d86f4651a77ed5cc6e2e7bea~mv2.jpg" alt="Demostración de Gimnasia Dactilar">
+        </div>
+
+        <p class="description">
+            Si quieres dedos rápidos, fuertes y precisos, ¡la Gimnasia Dactilar es tu nuevo mejor amigo! 💪 Esta técnica te ayudará a mejorar 
+            <strong>postura</strong>, <strong>agarre</strong>, <strong>posición</strong>, <strong>destreza</strong> y mucho más. Aquí te explicamos cómo dominarla paso a paso:
+        </p>
+
+        <h2 id="ejercicio-basico">🎯 El ejercicio básico:</h2>
+        <ul>
+            <li><strong>Dedos y trastes:</strong> Coloca un dedo en cada traste, todos seguidos, en la misma cuerda (por ejemplo, dedos 1, 2, 3 y 4 en los trastes 9, 10, 11 y 12).</li>
+            <li><strong>Presiona y levanta:</strong> Mantén todos los dedos presionando la cuerda mientras sigues el patrón indicado.</li>
+        </ul>
+
+        <h2 id="patrones">📋 Patrones de Ejercicio:</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Patrón</th>
+                    <th>Descripción</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Individuales</td>
+                    <td>1 - 2 - 3 - 4</td>
+                </tr>
+                <tr>
+                    <td>Dobles</td>
+                    <td>12 - 23 - 34</td>
+                </tr>
+                <tr>
+                    <td>Intermedios</td>
+                    <td>13 - 24 - 14</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2 id="niveles">🚦 Niveles de dificultad:</h2>
+        <ul>
+            <li><strong>Nivel 1:</strong> Comienza lento y enfócate en la postura. Dedos relajados pero firmes.</li>
+            <li><strong>Nivel 2:</strong> Aumenta velocidad y resistencia, cuidando la precisión.</li>
+            <li><strong>Nivel 3:</strong> ¡Domina el mástil completo! Desde el traste 9 hasta el 1, con fluidez y sin perder el ritmo.</li>
+        </ul>
+
+        <h2 id="tips">🔥 Tips para maximizar resultados:</h2>
+        <ul>
+            <li><strong>Relájate:</strong> Evita tensar la mano. El truco está en la comodidad y el control.</li>
+            <li><strong>Ritmo constante:</strong> Usa un metrónomo para mantener un tempo estable.</li>
+            <li><strong>No te rindas:</strong> Al principio puede sentirse extraño, pero con práctica, tus dedos serán más ágiles que nunca.</li>
+        </ul>
+
+        <div class="tip">
+            🎵 <strong>¿Sabías que...?</strong> El gran guitarrista Steve Vai practicaba guitarra hasta <strong>10 horas al día</strong>, siguiendo una rutina disciplinada que incluía ejercicios como la Gimnasia Dactilar. ¡La constancia es clave para ser un virtuoso! 🎶
+        </div>
+
+        <a href="#top" class="back-to-top">Volver arriba</a>
+    </div>
+
+    <script>
+        // Barra de progreso dinámica
+        window.onscroll = function() {
+            const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+            const scrollHeight = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+            const scrollPercent = (scrollTop / scrollHeight) * 100;
+            document.getElementById("progress-bar").style.width = scrollPercent + "%";
+        };
+    </script>
+</body>
+</html>
